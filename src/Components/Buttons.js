@@ -4,7 +4,7 @@ const Buttons = (props) => {
     return ( 
         <div>
             <button className="ui red basic button" onClick={props.onDecrement} test='decrementButton'>Decrement</button>
-            <button className="ui green basic button"onClick={props.onIncrement}>Increment</button>
+            <button className="ui green basic button"onClick={props.onIncrement} test='incrementButton'>Increment</button>
         </div>
      );
 }
