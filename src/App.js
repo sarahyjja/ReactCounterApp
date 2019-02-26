@@ -11,10 +11,14 @@ class App extends Component {
   }
 
   handleDecrementClick = () => {
-    console.log('BlahBlah')
+    const counter = this.state.counter
+    const newCounter = counter - 1
+    this.setState({counter: newCounter})
 };
   handleIncrementClick = () => {
-    console.log('Touloulou')
+    const counter = this.state.counter
+    const newCounter = counter + 1
+    this.setState({counter: newCounter})
 };
 
   render() {
